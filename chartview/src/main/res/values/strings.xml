@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ChartView</string>
+    <string name="market_string_chart_data_null">图表数据获取失败</string>
+    <string name="market_string_chart_month_k">月K</string>
+    <string name="market_string_chart_week_k">周k</string>
+    <string name="market_string_chart_day_k">日K</string>
+    <string name="market_string_chart_default_k">分时</string>
+    <string name="market_string_5_minute">5分</string>
+    <string name="market_string_15_minute">15分</string>
+    <string name="market_string_30_minute">30分</string>
+    <string name="market_string_60_minute">60分</string>
+    <string name="market_dialog_cancel">取消</string>
+</resources>

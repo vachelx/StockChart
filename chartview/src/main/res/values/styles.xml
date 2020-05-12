@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ParameterButton">
+        <item name="android:minWidth">50dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:drawablePadding">1dp</item>
+        <item name="android:textColor">@color/theme_white</item>
+        <item name="android:drawableRight">@drawable/black_selector_arrow_bg</item>
+        <item name="android:background">@drawable/black_parameter_bg_shape</item>
+    </style>
+
+    <!-- k线下拉popupWindow的text-->
+    <style name="market_pull_chart_popup">
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">13dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/chart_pull_popup_color</item>
+    </style>
+
+</resources>

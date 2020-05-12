@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="color_transparent">#00000000</color>
+
+    <color name="color_background_gray">#F6F8FC</color>
+    <color name="color_divider">#E7E9ED</color>
+
+    <color name="text_primary">#DE000000</color>
+    <color name="text_secondary">#8A000000</color>
+    <color name="text_light">#ffffff</color>
+
+    <color name="color_agent_bubble">#ffffff</color>
+    <color name="color_visitor_bubble">#6687FF</color>
+
+    <color name="color_snackbar_connection">#FFE1E1</color>
+    <color name="color_snackbar_text">#FF6666</color>
+    <color name="color_snackbar_text_retry">#6687FF</color>
+    <color name="color_tips_gray">#6F7385</color>
+
+    <!--chart-->
+    <color name="color_sign_blue">#4999FF</color>
+    <color name="line_path_red">#FF4D4D</color>
+    <color name="line_path_green">#1FC281</color>
+    <color name="market_color_bar_chart_positive">#99FF6666</color>
+    <color name="market_color_bar_chart_negative">#994EC286</color>
+    <color name="market_color_chart_line_average"> #E6E6E6</color>
+    <color name="kline_red">#FF6666</color>
+    <color name="kline_green">#4EC286</color>
+
+    <color name="theme_white">#FFFFFF</color>
+    <color name="theme_black">#000000</color>
+    <color name="label_font_black">#A8A8B0</color>
+    <color name="label_font_white">#6F7385</color>
+    <color name="color_high_line_black">#AAAEB8</color>
+    <color name="color_high_line_white">#8E8E93</color>
+
+    // 黑色主题颜色
+    <color name="black_bg_a">#1C1C1C</color>
+    <color name="black_bg_c">#3A3A3C</color>
+    <color name="black_font_e">#4DEBEBF5</color>
+    <color name="black_line_divider">#4DEBEBF5</color>
+
+    // 白色主题颜色
+    <color name="white_bg_a">#F7F7FB</color>
+    <color name="white_bg_c">#EFEFF4</color>
+    <color name="white_font_e">#4DEBEBF5</color>
+    <color name="white_line_divider">#E5E5EA</color>
+
+
+    <!--股线指标线颜色-->
+    <color name="parameter_line_a">#4999FF</color>
+    <color name="parameter_line_b">#F59631</color>
+    <color name="parameter_line_c">#AB5DF1</color>
+    <color name="parameter_line_d">#1FBFC2</color>
+    <color name="parameter_line_e">#eaef397f</color>
+    <color name="parameter_line_f">#e62019</color>
+
+    <!--TabLayout-->
+    <color name="tab_layout_text_default_color">#AEB2C2</color>
+
+</resources>

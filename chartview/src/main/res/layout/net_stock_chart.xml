@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.vachel.chartview.ChartTabView
+        android:id="@+id/chart_tab_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/chart_mode_btn"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/mark_contains"/>
+
+    <ImageButton
+        android:id="@+id/chart_mode_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/selector_chart_mode"
+        app:layout_constraintLeft_toRightOf="@id/chart_tab_layout"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <com.vachel.chartview.MyBarCombineChart
+        android:id="@+id/bar_chart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.20"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/mark_contains"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@id/chart_tab_layout"
+        app:layout_constraintBottom_toTopOf="@id/combine_chart">
+
+        <com.vachel.chartview.RightDrawableCenterTextView
+            android:id="@+id/change_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ParameterButton"/>
+
+        <TextView
+            android:id="@+id/parameters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="@dimen/mark_parameters_text_size"/>
+    </LinearLayout>
+
+    <com.vachel.chartview.MyCombineChart
+        android:id="@+id/combine_chart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mark_contains"/>
+
+    <LinearLayout
+        android:id="@+id/auxiliary_contains"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@id/bar_chart">
+
+        <com.vachel.chartview.RightDrawableCenterTextView
+            android:id="@+id/auxiliary_change_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ParameterButton"/>
+
+        <TextView
+            android:id="@+id/auxiliary_parameters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="@dimen/mark_parameters_text_size"/>
+    </LinearLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/chart_waiting"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:lottie_fileName="loading.json"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"/>
+
+</android.support.constraint.ConstraintLayout>

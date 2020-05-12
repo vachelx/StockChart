@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.vachel.chartview.StockChartView
+        android:id="@+id/chart_view"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"/>
+
+    <TextView
+        android:id="@+id/change_theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/ChangeBtn"
+        android:text="改变主题"/>
+
+    <TextView
+        android:id="@+id/change_rise_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/ChangeBtn"
+        android:text="改变涨跌色"/>
+
+    <TextView
+        android:id="@+id/change_grad_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/ChangeBtn"
+        android:text="改变渐变色"/>
+
+</LinearLayout>

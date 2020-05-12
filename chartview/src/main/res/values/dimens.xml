@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="attachment_preview_radius">0dp</dimen>
+    <dimen name="dimen_1px">1px</dimen>
+    <dimen name="general_padding">16dp</dimen>
+    <dimen name="chat_image_min_width">80dp</dimen>
+    <dimen name="chat_image_max_width">200dp</dimen>
+    <dimen name="chat_image_min_height">80dp</dimen>
+    <dimen name="chat_image_max_height">300dp</dimen>
+
+    <!--chart-->
+    <dimen name="market_bar_chart_height">45dp</dimen>
+    <dimen name="mark_parameters_text_size">10sp</dimen>
+    <dimen name="dimen_divider">1px</dimen>
+
+    <dimen name="popup_select_vertical">8dp</dimen>
+    <dimen name="popup_select_horizontal">20dp</dimen>
+    <dimen name="popup_window_width">80dp</dimen>
+
+    <!--tabLayout-->
+    <dimen name="tab_layout_default_padding">6dp</dimen>
+    <dimen name="tab_layout_default_text_size">14sp</dimen>
+
+</resources>

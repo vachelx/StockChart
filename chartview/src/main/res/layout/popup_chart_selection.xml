@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_popup_chart_pull_bg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/selection_5_minute"
+        style="@style/market_pull_chart_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/market_string_5_minute"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_divider"
+        android:background="@color/black_line_divider"/>
+
+    <TextView
+        android:id="@+id/selection_15_minute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/market_pull_chart_popup"
+        android:text="@string/market_string_15_minute"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_divider"
+        android:background="@color/black_line_divider"/>
+
+    <TextView
+        android:id="@+id/selection_30_minute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/market_pull_chart_popup"
+        android:text="@string/market_string_30_minute"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_divider"
+        android:background="@color/black_line_divider"/>
+
+    <TextView
+        android:id="@+id/selection_60_minute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/market_pull_chart_popup"
+        android:text="@string/market_string_60_minute"/>
+
+</LinearLayout>
